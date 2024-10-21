@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>コントローラー</title>
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <!-- three.jsを読み込む -->
+    <!--script src="https://threejs.org/build/three.js"></script-->
+  </head>
+<body>
+  <canvas id="myCanvas"></canvas>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.150.1/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.150.1/examples/jsm/",
+        "webxr-polyfill": "https://cdn.jsdelivr.net/npm/webxr-polyfill@latest/build/webxr-polyfill.module.js"
+      }
+    }
+  </script>
+  <!-- jsを読み込む -->
+  <script type="module" src="controller1.js"></script>
+</body>
+</html>
